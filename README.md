@@ -35,13 +35,9 @@ This repository contains a deep learning model for detecting tables in images an
 
 ### 1. Train the Model
 Set paths for training and validation images/annotations, then call `train_table_detection_model`:
-```python
-train_table_detection_model(train_data_path, val_data_path, epochs=10, batch_size=32)
-```
+
 
 ### 2. Predict Bounding Boxes
 Use `predict_bboxes` with the trained model to predict bounding boxes for test images:
-```python
-predict_bboxes(model_path, test_data_path, output_csv_path)
 
 
